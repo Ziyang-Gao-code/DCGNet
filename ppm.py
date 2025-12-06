@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# 默认设置为 False，这在现代 PyTorch 版本中更常见
 algc = False
 
 
@@ -159,3 +158,4 @@ class PAPPM(nn.Module):
         out = self.compression(torch.cat([x_, scale_out], 1)) + self.shortcut(x)
 
         return out
+
