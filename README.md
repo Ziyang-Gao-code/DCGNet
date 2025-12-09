@@ -1,12 +1,12 @@
 # DCGNet: Decoupled Context and Detail-Guided Network for Real-Time Semantic Segmentation of Urban Road Scenes
 
-
 ## Introduction
 
 DCGNet is a real-time semantic segmentation network designed for urban road scene understanding. It adopts a decoupled dual-branch architecture that separately processes context and detail information, enabling efficient and accurate segmentation results.
 
-## Overvie
+![Overall Architecture](figs/overall.png)
 
+## Overvie
 
 ## Datasets
 
@@ -24,12 +24,12 @@ DCGNet is a real-time semantic segmentation network designed for urban road scen
 
 | Method | Pretrain | Val (% mIOU) | Test (% mIOU) | FPS(torch) |
 |:-------|:---------|:-------------|:--------------|:-----------|
-| DCGNet-Lite | No | - | - | - |
-| DCGNet-Base | No | - | - | - |
-| DCGNet-Deep | No | - | - | - |
-| DCGNet-Lite | ImageNet | - | - | - |
-| DCGNet-Base | ImageNet | - | - | - |
-| DCGNet-Deep | ImageNet | - | - | - |
+| DCGNet-Lite | No | 77.6 | 77.4 | 162.1 |
+| DCGNet-Base | No | 78.4 | 78.3 | 64.2 |
+| DCGNet-Deep | No | 78.9 | 78.8 | 48.2 |
+| DCGNet-Lite | ImageNet | 78.9 | 78.7 | 162.1 |
+| DCGNet-Base | ImageNet | 79.9 | 79.8 | 64.2 |
+| DCGNet-Deep | ImageNet | 80.4 | 80.3 | 48.2 |
 
 ### CamVid Dataset
 
@@ -39,7 +39,6 @@ DCGNet is a real-time semantic segmentation network designed for urban road scen
 | DCGNet-Base | No | - | - | - |
 | DCGNet-Lite | Cityscapes | - | - | - |
 | DCGNet-Base | Cityscapes | - | - | - |
-
 
 ## Key Features
 
@@ -51,26 +50,8 @@ DCGNet is a real-time semantic segmentation network designed for urban road scen
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dcgnet.git
+git clone [https://github.com/yourusername/dcgnet.git](https://github.com/yourusername/dcgnet.git)
 cd dcgnet
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-## Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex
-@article{,
-  title={DCGNet: Decoupled Context and Detail-Guided Network for Real-Time Semantic Segmentation of Urban Road Scenes},
-  author={},
-  journal={},
-  year={}
-}
-```
-
-## Acknowledgments
-
-Our implementation is modified based on [PIDNet-Semantic-Segmentation](https://github.com/XuJiacong/PIDNet) and [HRNet-Semantic-Segmentation](https://github.com/HRNet/HRNet-Semantic-Segmentation). Thanks for their nice contribution.
