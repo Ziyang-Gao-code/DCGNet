@@ -48,8 +48,7 @@ To address these limitations, we propose the **Decoupled Context and Detail-Guid
 
 ## Visualizations
 
-We provide qualitative visualization results to demonstrate the superior performance of **DCGNet** in complex urban driving scenarios. As shown below, thanks to the **Refinement Branch** and **MVAM**, our model produces precise segmentation masks with sharp boundaries, effectively recovering fine-grained details (e.g., traffic lights, poles) while maintaining global semantic consistency.
-
+We provide qualitative visualization results to demonstrate the superior performance of **DCGNet** in complex urban driving scenarios.
 ### Cityscapes Results
 ![Cityscapes Segmentation](figs/cityscapes_segmentation.png)
 
