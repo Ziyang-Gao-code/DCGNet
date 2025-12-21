@@ -40,10 +40,10 @@ To address these limitations, we propose the **Decoupled Context and Detail-Guid
 
 | Method | Pretrain | Val (% mIOU) | Test (% mIOU) | FPS (torch) |
 |:---:|:---:|:---:|:---:|:---:|
-| **DCGNet-Lite** | No | - | - | - |
-| **DCGNet-Base** | No | - | - | - |
-| **DCGNet-Lite** | Cityscapes | - | - | - |
-| **DCGNet-Base** | Cityscapes | - | - | - |
+| **DCGNet-Lite** | No | - | 72.9 | 208.4 |
+| **DCGNet-Base** | No | - | 74.6 | 152.5 |
+| **DCGNet-Lite** | Cityscapes | - | 80.4 | 208.4 |
+| **DCGNet-Base** | Cityscapes | - | 82.2 | 152.5 |
 
 ## Visualizations
 
